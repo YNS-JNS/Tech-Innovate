@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-slate-900 text-slate-400 text-lg min-h-screen `}>
+      <body className={`${inter.className} bg-stone-950 text-[#eee] text-lg min-h-screen `}>
         <Navbar/>
         {children}
         <Footer/>
