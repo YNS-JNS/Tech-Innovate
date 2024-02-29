@@ -4,7 +4,7 @@ import Link from "next/link";
 import { navLinks } from "@/constants/nav-links";
 import MobileNav from "./MobileNav";
 
-const Navbar = () => {
+const Navbar : React.FC = () => {
   return (
     <header className="bg-stone-950 text-[#eee] backdrop-blur-md z-30">
       <div className="container py-6 flex justify-between items-center transition-all">

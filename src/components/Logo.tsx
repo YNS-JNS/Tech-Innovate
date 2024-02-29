@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-const Logo = () => {
+const Logo : React.FC = () => {
   return (
     <Link href="/" className="flex items-end gap-2">
       <Image src="/logo.png" 

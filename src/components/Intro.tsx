@@ -41,7 +41,7 @@ const Intro: React.FC = () => {
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 64 64"
                         strokeWidth="3"
-                        stroke="#000000"
+                        // stroke="#000000" 
                         fill="none"
                     >
                         <path d="M14,39.87,24.59,50.51s33-14,31.23-42.29C55.82,8.22,29.64,4.28,14,39.87Z"></path>
@@ -54,7 +54,7 @@ const Intro: React.FC = () => {
                     Get the Latest Update
                 </a>
                 <a
-                    href="#"
+                    href="/services"
                     className="flex flex-row items-center justify-center gap-x-2 rounded-lg border border-teal-500 px-10 py-3 text-teal-500 hover:bg-slate-100 hover:text-black"
                 >
                     Learn More →

@@ -9,7 +9,7 @@ const Jumbotron: React.FC = () => {
                     <p className="text-lg font-medium leading-8 text-gray-100">Get your tasks done</p>
                     <h1 className="my-3 sm:my-4 md:my-8 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-10 tracking-tight text-black">
                         Productivity tool for
-                        <span className="text-blue-700">Devs</span>
+                        <span className="text-blue-700">Tech</span>
                     </h1>
                     <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-500">
                         Tailwind Flex

@@ -1,13 +1,8 @@
 "use client";
-import Button from "@/components/Button";
-import FeatureBlock from "@/components/FeatureBlock";
-import FeatureCard from "@/components/FeatureCard";
-import Features from "@/components/Features";
-import Heading from "@/components/Heading";
-import { features, featuresBlock } from "@/constants/features";
-import Image from "next/image";
 
-const Services = () => {
+import Features from "@/components/Features";
+
+const Services : React.FC = () => {
   return (
     <section
       id="features"
