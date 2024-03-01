@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const Portfolio: React.FC = () => {
@@ -38,9 +39,9 @@ const Portfolio: React.FC = () => {
           </div>
           <div className="mt-12 sm:mt-16 lg:mt-0">
             <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-              <img loading="lazy" width="647" height="486"
+              <Image alt='img' loading="lazy" width="647" height="486"
                 className="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                style={{ color: "transparent" }} 
+                style={{ color: "transparent" }}
                 src="https://images.unsplash.com/photo-1569144157591-c60f3f82f137" />
             </div>
           </div>
@@ -82,7 +83,7 @@ const Portfolio: React.FC = () => {
           </div>
           <div className="mt-12 sm:mt-16 lg:mt-0">
             <div className="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-              <img alt="Inbox user interface" loading="lazy" width="647" height="486"
+              <Image alt="Inbox user interface" loading="lazy" width="647" height="486"
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                 style={{ color: "transparent" }} src="https://images.unsplash.com/photo-1599134842279-fe807d23316e" />
             </div>
@@ -125,7 +126,7 @@ const Portfolio: React.FC = () => {
           </div>
           <div className="mt-12 sm:mt-16 lg:mt-0">
             <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
-              <img loading="lazy" width="646" height="485"
+              <Image alt='img' loading="lazy" width="646" height="485"
                 className="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                 style={{ color: "transparent" }}
                 src="https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e" />

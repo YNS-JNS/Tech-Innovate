@@ -6,7 +6,7 @@ const Contact: React.FC = () => {
       <div className="container mx-auto px-5 py-8">
         <div className="mb-12 flex w-full flex-col text-center">
           <h1 className="title-font mb-4 text-2xl font-medium text-white sm:text-3xl">Contact Us</h1>
-          <p className="mx-auto text-base leading-relaxed lg:w-2/3">Feel free to reach out to us! Whether you have a question, feedback, or a collaboration proposal, we'd love to hear from you.</p>
+          <p className="mx-auto text-base leading-relaxed lg:w-2/3">Feel free to reach out to us! Whether you have a question, feedback, or a collaboration proposal, we had love to hear from you.</p>
         </div>
         <div className="mx-auto md:w-2/3 lg:w-1/2">
           <div className="-m-2 flex flex-wrap">
